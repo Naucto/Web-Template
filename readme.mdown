@@ -1,0 +1,21 @@
+# Naucto Template Web Repository
+
+Greetings! This repository is aimed to both serve as a template for Naucto web-related projects and as a guideline for
+existing projects to follow.
+
+## Integration
+
+If you want to integrate this repository into an existing project, you can do so by executing the following commands:
+
+```bash
+# Add this repository as a separate stream
+git remote add template git@github.com:Naucto/Web-Template.git
+
+# Merge/sync your repository with the template
+git pull template
+```
+
+Do note that this will potentially result in merge conflicts, which you will have to resolve manually.
+
+Make sure to delete unnecessary files after merging, like as this `readme.mdown` file which only serves as
+documentation here.
